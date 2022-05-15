@@ -1,1 +1,1 @@
-simple shell read me
+Hello people, this is our simple shellf project readme.
