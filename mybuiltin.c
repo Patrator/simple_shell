@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "main.h"
 
 
 /**
@@ -19,7 +19,7 @@ int (*get_builtin_handl(const char *command))(shell_t *shell)
 		{"cd", hsh_cd},
 		{NULL, NULL}
 	};
-
+	/* iterate within builtin command*/
 	for (i = 0; builtins[i].name; i++)
 	{
 		if (_strcmp(command, builtins[i].name) == 0)
