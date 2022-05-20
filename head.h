@@ -1,5 +1,5 @@
-#ifndef SHELL_H
-#define SHELL_H
+#ifndef HEAD_H
+#define HEADL_H
 
 #define BUFSIZE 1024
 #define TOKEN_BUFSIZE 128
@@ -132,4 +132,4 @@ ssize_t _getline(char **lineptr, size_t *n, FILE *stream);
 char *eval_cmd(shell_t *shell, char *cmd);
 char *com_remover(char *s);
 
-#endif /* SHELL_H */
+#endif /* HEAD_H */

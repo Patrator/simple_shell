@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "head.h"
 
 /**
  * rev_string - funtion that prints the reverse of

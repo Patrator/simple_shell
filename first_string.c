@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "head.h"
 
 /**
  * _strdup - duplicates a string
