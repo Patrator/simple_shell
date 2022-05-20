@@ -1,5 +1,5 @@
 #ifndef HEAD_H
-#define HEADL_H
+#define HEAD_H
 
 #define BUFSIZE 1024
 #define TOKEN_BUFSIZE 128
