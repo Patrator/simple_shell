@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "head.h"
 
 /**
  *  prompt - prints the prompt
