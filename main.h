@@ -1,5 +1,5 @@
 #ifndef MAIN_H
-#define SHELL_H
+#define MAIN_H
 
 #define BUFSIZE 1024
 #define TOKEN_BUFSIZE 128
@@ -127,4 +127,8 @@ void error_message(shell_t *shell, char *message, int status);
 void assign_lineptr(char **lineptr, size_t *n, char *buffer, size_t count);
 ssize_t _getline(char **lineptr, size_t *n, FILE *stream);
 
-#endif /* SHELL_H */
+/* Evaluate.c */
+char *eval_cmd(shell_t *shell, char *cmd);
+char *com_remover(char *s);
+
+#endif /* HEAD_H */
