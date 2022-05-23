@@ -20,7 +20,7 @@ char *_strdup(const char *s)
 }
 
 /**
- * _strlen - length of a string
+ * _strlen - handles the length of a string
  *
  * @s: the given string
  * Return: length of the string string
@@ -36,7 +36,7 @@ size_t _strlen(const char *s)
 }
 
 /**
- * _memcpy - copy memory area
+ * _memcpy - handles copy memory area
  *
  * @dest: destination memory
  * @src: source memory
