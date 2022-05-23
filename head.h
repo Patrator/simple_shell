@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef HEAD_H
+#define HEAD_H
 
 #define BUFSIZE 1024
 #define TOKEN_BUFSIZE 128
@@ -84,6 +84,7 @@ void free_env_arr(char **env);
 int parse_command(shell_t *shell, char *command);
 int execute(shell_t *shell);
 int err_check(shell_t *shell, char *file);
+int check_exe(char *path);
 
 /* builtins */
 int (*get_builtin_handl(const char *cmd))(shell_t *shell);
