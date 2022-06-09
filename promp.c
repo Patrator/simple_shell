@@ -1,9 +1,20 @@
-#include "head.h"
-
+#include "holberton.h"
 /**
- *  prompt - prints the prompt on console
+ * prompt - writes a prompt that always
+ * diaplay
+ *
+ * Return: 0 on sucess
  */
-void prompt(void)
+int prompt(void)
 {
-	write(STDOUT_FILENO, "#cisfun$ ", 10);
+    char *prompt = "$ ";
+    ssize_t write_count = 0;
+
+    if (isatty(STDIN_FILENO) == 1)
+    {
+        write_count = write(STDOUT_FILENO, prompt, 2);
+        if (write_count == -1)
+            exit(0);
+    }
+    return (0);
 }
