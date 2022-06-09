@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "head.h"
 /**
  * prompt - writes a prompt that always
  * diaplay

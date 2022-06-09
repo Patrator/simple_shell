@@ -1,3 +1,4 @@
+#include "head.h"
 /**
  * _which - find the file for a command
  *

@@ -1,3 +1,4 @@
+#include "head.h"
 /**
  * com_remover - removes comments from s.
  *
